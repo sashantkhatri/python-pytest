@@ -1,0 +1,40 @@
+{
+  "ui": {
+    "env": "",
+    "browser": [
+      {
+        "chrome": {
+          "chromeOptions": {
+            "args": [
+              "--disable-gpu",
+              "--no-sandbox",
+              "--disable-extensions",
+              "--disable-dev-shm-usage",
+              "--no-service-autorun"
+            ]
+          }
+        }
+      },
+      {
+        "firefox": {
+          "moz:firefoxOptions": {
+              "args": [
+              "--disable-gpu",
+              "--no-sandbox",
+              "--disable-extensions",
+              "--disable-dev-shm-usage",
+              "--no-service-autorun"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "api": {
+    "api_header": {
+      "content-type": "application/json",
+      "content-type-url-encoded": "application/x-www-form-urlencoded"
+    }
+  },
+  "jira": ""
+}
